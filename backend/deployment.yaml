@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: phanqdat/blog-backend:28ba611
+          image: phanqdat/blog-backend:597ff74
           imagePullPolicy: Always
           ports:
             - containerPort: 5000
