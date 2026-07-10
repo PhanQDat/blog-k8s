@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: phanqdat/blog-frontend:77cd6fb
+          image: phanqdat/blog-frontend:45e2bdb
           imagePullPolicy: Always
           ports:
             - containerPort: 80
