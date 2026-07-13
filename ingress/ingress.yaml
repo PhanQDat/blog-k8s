@@ -9,15 +9,16 @@ spec:
   ingressClassName: nginx
 
   rules:
-    #- host: blog.local
+    - http:
 
-      http:
         paths:
+
           - path: /
 
             pathType: Prefix
 
             backend:
+
               service:
                 name: frontend
 
