@@ -9,7 +9,7 @@ spec:
   ingressClassName: nginx
 
   rules:
-    - host: blog.local
+    #- host: blog.local
 
       http:
         paths:
